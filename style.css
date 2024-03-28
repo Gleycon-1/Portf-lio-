@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+html, body {
+margin: 0;
+height: 100%;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 2rem;
+overflow-x: hidden;
+}
+
+
+
+body {
+background-image: linear-gradient(
+    #a30fffff, #ffffff);
+    color: aliceblue;}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+    
+
+header > .h1nav {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 3px;
+
+}
+
+nav {
+    font-size: 20px;
+    text-align: right;}
+
+    nav > a {
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 10px;}
+
+nav > a:hover {
+    background-color: rgb(255, 0, 225);
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 30%;}
+
+    #foto {
+        width: 200px;
+        height: 200px;
+        margin-left: 45%;
+        margin-top: 5%;
+        border-radius: 50%;
+    }
+
+    #nome{
+        color:rgb(207, 173, 220);
+    }
+
+    .btntrabalhos{
+        font-size: 20px;
+        padding: 20px 20px;
+        width: 20;
+        color: #ffffff;
+        background: #c7c7bd;
+        border: 1px solid #ce2696;
+        border-radius: 0px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;}
+
+        .btntrabalhos:hover{
+            background-color:#fafafa;
+        }
